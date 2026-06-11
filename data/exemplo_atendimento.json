@@ -1,0 +1,86 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Ana Souza",
+      "telefone": "(11) 90000-0001",
+      "prioridade": true,
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Lima",
+      "telefone": "(11) 90000-0002",
+      "prioridade": false,
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "nome": "Carla Dias",
+      "telefone": "(11) 90000-0003",
+      "prioridade": false,
+      "ativo": true
+    },
+    {
+      "id": 4,
+      "nome": "Diego Alves",
+      "telefone": "(11) 90000-0004",
+      "prioridade": true,
+      "ativo": true
+    }
+  ],
+  "atendentes": [
+    {
+      "id": 1,
+      "nome": "Marina",
+      "ocupado": false,
+      "cliente_atual_id": null,
+      "inicio_atendimento": null
+    },
+    {
+      "id": 2,
+      "nome": "Rafael",
+      "ocupado": false,
+      "cliente_atual_id": null,
+      "inicio_atendimento": null
+    }
+  ],
+  "fila_prioridade": [],
+  "fila_comum": [],
+  "em_atendimento": [],
+  "historico": [
+    {
+      "cliente_id": 1,
+      "atendente_id": 1,
+      "data": "2026-06-10T09:30:00",
+      "duracao_minutos": 18.0,
+      "espera_minutos": 12.0,
+      "prioridade": true
+    },
+    {
+      "cliente_id": 2,
+      "atendente_id": 2,
+      "data": "2026-06-10T10:15:00",
+      "duracao_minutos": 24.5,
+      "espera_minutos": 35.0,
+      "prioridade": false
+    },
+    {
+      "cliente_id": 1,
+      "atendente_id": 1,
+      "data": "2026-06-11T11:05:00",
+      "duracao_minutos": 9.0,
+      "espera_minutos": 5.0,
+      "prioridade": true
+    },
+    {
+      "cliente_id": 3,
+      "atendente_id": 2,
+      "data": "2026-06-11T14:20:00",
+      "duracao_minutos": 31.0,
+      "espera_minutos": 42.0,
+      "prioridade": false
+    }
+  ],
+  "desfazer": []
+}
