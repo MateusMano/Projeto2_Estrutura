@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+data/*.json
+data/*.csv
+logs/*.log
+!data/exemplo_atendimentos.json
+!data/.gitkeep
+!logs/.gitkeep
